@@ -1,0 +1,78 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+/*COULEURS*/
+$bleu: #34535f;
+$vert: #789456;
+/*TAILLES*/
+$police-moyen: 1.1rem;
+$police-petit: 1rem;
+$police-grand: 1.2rem;
+
+html,body{
+  background-size: contain;
+  background-position: top;
+  background-image: url("../img/bg2.jpg");
+  background-repeat: repeat;
+  color: $yellow-800;
+  margin: 0;
+  padding: 0;
+  font-family: 'Anek Odia', sans-serif;
+  box-sizing: border-box;
+  font-size: $police-grand;
+
+}
+/*PRODUITS*/
+.img-produit{
+  width: 100%;
+}
+.img-details-produit{
+  width: 25%;
+
+}
+
+.btn-success{
+  background-color: $vert!important;
+  border: none;
+}
+
+.btn-danger{
+  background-color: $orange-700!important;
+  border: none;
+  font-size: $police-moyen;
+}
+
+
+
+.titre-produit-container{
+  background-color: $purple-800;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 20px;
+}
+.details_produits{
+  background-color: rgba(102, 92, 92, 0.3);
+  padding: 20px;
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.produits{
+  background-color: rgba(102, 92, 92, 0.3);
+  padding: 20px;
+  width: 24%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+@media (max-width:1024px) {
+  .produits{
+    display: block;
+    width: 100%;
+  }
+}
+
+
